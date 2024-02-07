@@ -1,0 +1,306 @@
+@media screen and (min-width: 1400px){
+
+}
+@media screen and (max-width: 1250px)
+{
+    #page
+    {
+        font-size: 13px;
+    }
+    .section-one
+    {
+        background-image: url(../imge/screens2.jpg);
+        
+    }
+    .section-two
+    {
+        background-image: url(../imge/second-section/RWV1ot\ \(1\).jpg);
+    }
+    
+}
+@media screen and (max-width: 1200px)
+{
+    .section7 {
+        flex-wrap: wrap;
+    }
+    .footer-contaner{
+        width: calc(100% / 3);
+    }
+}
+@media screen and (max-width:1150px){
+    .divices-contaners{
+        width: calc(96%/2);
+    }
+    .support
+    {
+        display: none;
+    }
+    .more-info
+    {
+        font-size: 13px;
+        color: #262626;
+        display: flex;
+    }
+}
+@media screen and (max-width:1100px)
+{
+    #page
+    {
+        width: 100%;
+    }
+    .section-one
+    {
+        height: 410px;
+    }
+    .section-one
+    {
+        background-image: url(../imge/screens3.webp);
+    }
+    .section-two
+    {
+        background-image: url(../imge/second-section/RWV1o222222222t.webp);
+    }
+    .Deals
+    {
+        display: none;
+    }
+    .last-conatner
+    {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .in-contaner22
+    {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .in-contaner22-list
+    {
+        
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width: 1050px)
+{
+    .section-divices
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .in-section-divices
+    {
+        margin: auto;
+        width:98%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .divices-contaners
+    {
+        justify-content: space-around;
+        width: calc(46%);
+    }
+    .divices-contaners h3
+    {
+        font-size: 15px;
+    }
+    .divices-contaners .laptop1
+    {
+        src: url(../imge/laptops/1/laptop2.webp) !important;
+        justify-content: center;
+    }
+    .divices-contaners .laptop2
+    {
+        src: url(../imge/laptops/2/laptop_2.webp) !important;
+        justify-content: center;
+    }
+    .divices-contaners .xboxS
+    {
+        src: url(../imge/laptops/3/xbox2.webp) !important;
+    }
+    .surface
+    {
+        display: none;
+    }
+    .Xbox
+    {
+        display: none;
+    }
+
+
+}
+@media screen and (max-width: 950px)
+{
+    .windows
+    {
+        display: none;
+    }
+    .in-icon-section
+    {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .text-contaner1 {
+        width: fit-content;
+        text-align: center;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+     .icon-contaner
+    {
+        margin-top: 23px !important;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 850px)
+{
+    .navigation-of-the-header1
+    {
+        display: none;
+    }
+    #menu
+    {
+        order: 1;
+        display: flex;
+    }
+    .allMicrosft-contaner
+    {
+        display: none;
+    }
+    .header-search
+    {
+        display: none;
+    }
+    .header1-contant
+    {
+        margin: auto;
+        order: 3;
+    }
+    .div-of-search
+    {
+        width: fit-content;
+        margin: 0px;
+        order: 2;
+        border: none;
+    }
+    #shopping-icon
+    {
+        order:4;
+    }
+    .shopping-icon-contaner
+    {
+        text-align: center;
+    }
+
+    #user-icon
+    {
+        order: 5;
+    }
+    /* end of header media */
+
+}
+@media screen and (max-width: 750px)
+{
+    .section-one
+    {
+        background-image: url(../imge/small\ screens.jpg);
+    }
+    .section-two
+    {
+        background-image: url(../imge/second-section/RWV1ot2222.webp);
+    }
+    .in-icon-section
+    {
+        flex-direction: column;
+    }
+     .icon-contaner
+    {
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+    }
+    .in-icon-section .icon-contaner img
+    {
+        height: 20px;
+        width: 20px;
+    }
+    .text-contaner1
+    {
+        margin-left: 5px;
+        width: unset !important;
+    }
+    .div1-textContaner
+    {
+
+        display: none;
+    }
+    .in-section-one
+    {
+        display: none;
+    }
+    .hidden-section
+    {
+        display: flex;
+    }
+    .link1-contaner2
+    {
+        margin: auto;
+    }
+    .hidden-section p
+    {
+        text-align: center;
+    }
+    .hidden-section .link1-contaner
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-contaner
+    {
+        margin: 0px;
+    }
+    .last-conatner{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width: 650px){
+    .footer-contaner{
+        width: calc(100%/2);
+    }
+    .icon-contaner
+    {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .icons-section {
+        margin: 50px 20px;
+        padding: 0;
+    }
+    .in-icon-section .icon-contaner {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 530px){
+    .divices-contaners
+    {
+       
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    .section7
+    { 
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 400px){
+
+}
+@media screen and (max-width: 300px){
+
+}
+
