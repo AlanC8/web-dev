@@ -1,0 +1,22 @@
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        .footer-items{
+            width: 270px;
+        }
+        h2{
+            font-size: 17px;
+        }
+        .footer-title{
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 14px;
+            opacity: .4;
+            margin-bottom: 16px;
+        }
+    }
+}

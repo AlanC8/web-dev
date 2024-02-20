@@ -1,0 +1,24 @@
+.container {
+  width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  button {
+    max-width: 130px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    opacity: .8;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+    color: #0089d0;
+    border: none;
+    border-left: 2px solid #e5e5e5;
+    background: white;
+    padding: 15px 6px;
+    &:last-child{
+        border-right: 1px solid #e5e5e5;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.box{
+    box-shadow: 0 4px 20px rgba(0,0,0,.08);
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        li:nth-child(2){
+            margin: 0px 64px;
+        }
+        opacity: .6;
+        letter-spacing: 1px;
+    }
+}

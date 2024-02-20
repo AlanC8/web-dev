@@ -1,0 +1,24 @@
+<h2 style="text-align: center">Products</h2>
+<div class="contain">
+  <div class="content" *ngFor="let product of products">
+    <h3>
+      <a href="{{ product.link }}" [title]="product.name + ' details'">
+        {{ product.name }}
+      </a>
+    </h3>
+    <a href="{{ product.link }}" [title]="product.name + ' details'">
+      <img [src]="product.image" alt="" width="230px" height="160px"
+    /></a>
+    <p class="description" *ngIf="product.description">
+      Description: {{ product.description }}
+    </p>
+    <h2 style="font-weight: 900">Price: {{ product.price }} ₸</h2>
+    <div class="btns">
+      <button type="button" (click)="share()">Share</button>
+      <button (click)="WP()">Redirect to WP</button>
+      <button (click)="TG()">Redirect to TG</button>
+    </div>
+    <app-product-alerts [product]="product" (notify)="onNotify()">
+    </app-product-alerts>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+.container {
+  width: 960px;
+  margin: 25px auto 15px;
+  justify-content: center;
+  display: flex;
+  input {
+    width: 470px;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    padding: 0px 20px 0px 10px;
+  }
+  input:hover {
+    border: #007aff 1px solid;
+    transition: 100ms ease-in;
+  }
+  .magaz {
+    height: 35px;
+    line-height: 32px;
+    width: 100px;
+    color: #0089d0;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    opacity: 0.9;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+  }
+  .search{
+    border: none;
+    background: #0089d0;
+    padding: 3.5px 14px;
+    color: white;
+    border-radius: 2px;
+    margin-right: 25px;
+    span{
+        overflow: hidden;
+    }
+  }
+  .city{
+    p{
+        font-size: 14px;
+    }
+    span{
+        color: #0089d0;
+        border-bottom: 1px dashed #0089d0;;
+    }
+  }
+}
