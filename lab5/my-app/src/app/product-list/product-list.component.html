@@ -1,0 +1,9 @@
+<h2 style="text-align: center">Products</h2>
+<app-category (value)="clickCategory($event)" [productsList]="getProductList()"></app-category>
+<div class="contain">
+  <div class="content" *ngFor="let product of products">
+    <div class="bx" *ngIf="getCategoryType() != 'none' ? product.category == getCategoryType() : product.category">
+      <app-product-item [productItem]="product"></app-product-item>
+    </div>
+  </div>
+</div>

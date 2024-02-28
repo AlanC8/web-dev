@@ -1,0 +1,22 @@
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    .content{
+        width: 260px;
+        height: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 15px 25px;
+        overflow: hidden;
+        box-sizing: border-box;
+        .description{
+            font-size: 14px;
+            opacity: .7;
+            letter-spacing: 0.4px;
+        }
+    }
+}

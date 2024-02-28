@@ -1,0 +1,43 @@
+.vls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .counter {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 15px;
+    span {
+      &:nth-child(2) {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding: 5px 15px;
+      }
+      &:first-child,
+      &:last-child {
+        padding: 5px 15px;
+      }
+    }
+  }
+  .like > button > span {
+    overflow-y: hidden;
+  }
+  .like > button {
+    background: none;
+    overflow-y: hidden;
+  }
+}
+.red{
+  transition: .3s ease-in-out;
+  color: red;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 20
+}

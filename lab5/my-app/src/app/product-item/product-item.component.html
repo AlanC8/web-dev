@@ -1,0 +1,39 @@
+<div *ngIf="removed">
+  <h3>
+    <a href="{{ productItem.link }}" [title]="productItem.name + ' details'">
+      {{ productItem.name }}
+    </a>
+    <button (click)="removing()">X</button>
+  </h3>
+  <a href="{{ productItem.link }}" [title]="productItem.name + ' details'">
+    <img [src]="productItem.image" alt="" width="230px" height="160px"
+  /></a>
+  <p class="description" *ngIf="productItem.description">
+    Description: {{ productItem.description }}
+  </p>
+  <h2 style="font-weight: 900">
+    Price: {{ productItem.price * getCount() }} ₸
+  </h2>
+  <div class="btns">
+    <button type="button" (click)="share()">Share</button>
+    <button (click)="WP()">Redirect to WP</button>
+    <button (click)="TG()">Redirect to TG</button>
+  </div>
+  <div class="vls">
+    <div class="counter">
+      <button (click)="decrement()">-</button>
+      <span>{{ count }}</span>
+      <button (click)="increment()">+</button>
+    </div>
+    <p>{{ +isLiked }}</p>
+    <div class="like">
+      <button (click)="cond()">
+        <span [class.red]="isLiked" class="material-symbols-outlined">
+          favorite
+        </span>
+      </button>
+    </div>
+  </div>
+  <app-product-alerts [product]="productItem" (notify)="onNotify()">
+  </app-product-alerts>
+</div>

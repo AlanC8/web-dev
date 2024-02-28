@@ -1,0 +1,19 @@
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    .content{
+        margin: 10px 15px;
+        button{
+            background: none;
+            color: black;
+            border: 1px solid black;
+            padding: 12px 16px;
+            transition: .3s ease-in-out;
+            &:hover{
+                color: white;
+                background: blue;
+            }
+        }
+    }
+}
