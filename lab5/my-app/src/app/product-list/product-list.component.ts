@@ -17,7 +17,10 @@ export class ProductListComponent {
     this.categoryType = value;
     this.filtered = products.filter(e => e.category == +value)
   }
-  getProductList(): Product[] {
+
+  getProductsList(): Product[]{
     return products;
   }
+
+
 }

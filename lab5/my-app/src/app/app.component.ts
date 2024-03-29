@@ -8,8 +8,6 @@ import { products } from './products';
 })
 export class AppComponent {
   title = 'my-app';
-  constructor(){
-  }
   getProducts(){
     return products;
   }
