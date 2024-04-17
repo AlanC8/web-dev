@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa497ad5-5ce2-41ea-b1e4-67d8d7a0ca19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab8/api/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/api/views/cbv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/api/views/fbv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/api/views/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/lab8/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/lab8/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab9/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2fEcgxkwMekjInYHQanElp1N8nf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/akaza/OneDrive/Рабочий стол/visual/web/lab10"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akaza\OneDrive\Рабочий стол\visual\web\lab9\api\views" />
+      <recent name="C:\Users\akaza\OneDrive\Рабочий стол\visual\web\lab9\api" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa497ad5-5ce2-41ea-b1e4-67d8d7a0ca19" name="Changes" comment="" />
+      <created>1713369792973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713369792973</updated>
+    </task>
+    <servers />
+  </component>
+</project>

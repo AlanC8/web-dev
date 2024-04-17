@@ -1,13 +1,13 @@
 from django.contrib import admin
-from api.models import Product, Category
+from api.models import Company, Vacancy
 # Register your models here.
 
-@admin.register(Product)
-class ProductsAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'price', 'description', 'count', 'is_active')
+@admin.register(Company)
+class CompanyAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'city', 'address')
     search_fields = ('name',)
 
-@admin.register(Category)
-class CategoryAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name')
+@admin.register(Vacancy)
+class VacancyAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'salary', 'company')
     search_fields = ('name',)
